@@ -1,0 +1,19 @@
+# Build artifacts
+/target/
+
+# Environment — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Claude local settings (user-specific, not for VCS)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
